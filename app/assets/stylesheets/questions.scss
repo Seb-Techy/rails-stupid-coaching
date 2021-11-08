@@ -1,0 +1,31 @@
+ // Defining a variable
+ $gray: #F4F4F4;
+
+ body {
+   background: $gray; // Using this variable
+ }
+
+  .banner1 {
+   background: white;
+   padding: 5px;
+   p {
+     font-size: 14px;
+      margin: 5px;
+   }
+ }
+  .banner2 {
+   background: #FFFFE1;
+   padding: 5px;
+   margin-top: 7px;
+   p {
+     font-size: 14px;
+      margin: 5px;
+   }
+ }
+
+  .link_to {
+   color: grey;
+   &:hover {
+     color: black;
+   }
+ }
